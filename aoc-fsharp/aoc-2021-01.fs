@@ -2,7 +2,7 @@
 
 printfn "Hello from F#"
 
-let input =  File.ReadLines "/home/k/src/aoc-fsharp/puzzles/2021/01/puzzle.txt"
+let input =  File.ReadLines "../../../../puzzles/2021/01/puzzle.txt"
              |> Seq.map int
 
 let resultP1 = input          
